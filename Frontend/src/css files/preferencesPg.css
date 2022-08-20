@@ -1,0 +1,85 @@
+/* NAVBAR */
+
+
+position: absolute;
+width: 63px;
+height: 31px;
+left: 1327px;
+top: 27px;
+
+
+
+/* CLOUDS */
+
+
+position: absolute;
+width: 1644px;
+height: 800px;
+left: 1542px;
+top: 112px;
+
+opacity: 0.8;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* select your preferred style(s) */
+
+
+position: absolute;
+width: 496px;
+height: 155px;
+left: 725px;
+top: 134px;
+
+font-family: 'Coco';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 96px;
+text-align: right;
+
+color: #FFFFFF;
+
+
+
+/* gender neutral */
+
+
+position: absolute;
+width: 393px;
+height: 182px;
+left: 951px;
+top: 516px;
+
+
+
+/* feminine */
+
+
+position: absolute;
+width: 373px;
+height: 190px;
+left: 534px;
+top: 516px;
+
+
+
+/* masc */
+
+
+position: absolute;
+width: 373px;
+height: 190px;
+left: 119px;
+top: 516px;
+
+
+
+/* done */
+
+
+position: absolute;
+width: 223px;
+height: 40px;
+left: 1186px;
+top: 805px;

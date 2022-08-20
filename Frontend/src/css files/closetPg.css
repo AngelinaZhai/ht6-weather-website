@@ -1,0 +1,77 @@
+/* Rectangle 66 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1167px;
+height: 702px;
+left: 137px;
+top: 136px;
+
+border: 1px solid #FFFFFF;
+border-radius: 20px;
+
+
+/* Group 16 */
+
+
+position: absolute;
+width: 63px;
+height: 31px;
+left: 1340px;
+top: 27px;
+
+
+
+/* clouds */
+
+
+position: absolute;
+width: 1479px;
+height: 1072px;
+left: -139px;
+top: -108px;
+
+
+
+/* SELECT ITEMS FOUND IN YOUR CLOSET */
+
+
+position: absolute;
+width: 616px;
+height: 22px;
+left: 204px;
+top: 193px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 22px;
+/* identical to box height, or 73% */
+
+
+color: rgba(255, 255, 255, 0.92);
+
+
+
+/* done */
+
+
+position: absolute;
+width: 223px;
+height: 40px;
+left: 1092px;
+top: 763px;
+
+
+
+/* lorem ipsum */
+
+
+position: absolute;
+width: 1156px;
+height: 333px;
+left: 255px;
+top: 364px;
