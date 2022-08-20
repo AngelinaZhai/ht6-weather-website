@@ -1,0 +1,81 @@
+﻿{
+    "overalls": [
+        {
+            "assetID": "long_dress_1",
+            "layer": 0,
+            "expressionType": "f",
+            "tempRatingTop": 0,
+            "tempRatingBottom": 1
+        },
+        {
+            "assetID": "long_dress_2",
+            "layer": 0,
+            "expressionType": "f",
+            "tempRatingTop": 1,
+            "tempRatingBottom": 1
+        },
+        {
+            "assetID": "long_jumpsuit",
+            "layer": 0,
+            "expressionType": "n",
+            "tempRatingTop": 0,
+            "tempRatingBottom": 1
+        },
+        {
+            "assetID": "medium_dress_1",
+            "layer": 0,
+            "expressionType": "f",
+            "tempRatingTop": 0,
+            "tempRatingBottom": 1
+        },
+        {
+            "assetID": "medium_dress_2",
+            "layer": 0,
+            "expressionType": "f",
+            "tempRatingTop": 0,
+            "tempRatingBottom": 1
+        },
+        {
+            "assetID": "medium_dress_3",
+            "layer": 0,
+            "expressionType": "f",
+            "tempRatingTop": 1,
+            "tempRatingBottom": 1
+        },
+        {
+            "assetID": "medium_dress_4",
+            "layer": 0,
+            "expressionType": "f",
+            "tempRatingTop": 2,
+            "tempRatingBottom": 1
+        },
+        {
+            "assetID": "short_dress_1",
+            "layer": 0,
+            "expressionType": "f",
+            "tempRatingTop": 1,
+            "tempRatingBottom": 0
+        },
+        {
+            "assetID": "short_dress_2",
+            "layer": 0,
+            "expressionType": "f",
+            "tempRatingTop": 0,
+            "tempRatingBottom": 0
+        },
+        {
+            "assetID": "short_dress_3",
+            "layer": 0,
+            "expressionType": "f",
+            "tempRatingTop": 0,
+            "tempRatingBottom": 0
+        },
+        {
+            "assetID": "short_overall",
+            "layer": 0,
+            "expressionType": "n",
+            "tempRatingTop": 1,
+            "tempRatingBottom": 0
+        }
+    ]
+}

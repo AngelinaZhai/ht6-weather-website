@@ -1,0 +1,53 @@
+﻿{
+    "accessories": [
+        {
+            "assetID": "beanie",
+            "locationType": "head",
+            "expressionType": "a",
+            "weatherType": "all",
+            "tempRating": 2
+        },
+        {
+            "assetID": "bucket_hat",
+            "locationType": "head",
+            "expressionType": "a",
+            "weatherType": "sun",
+            "tempRating": -1
+        },
+        {
+            "assetID": "cap",
+            "locationType": "head",
+            "expressionType": "a",
+            "weatherType": "sun",
+            "tempRating": -1
+        },
+        {
+            "assetID": "sunglasses_1",
+            "locationType": "face",
+            "expressionType": "a",
+            "weatherType": "sun",
+            "tempRating": -1
+        },
+        {
+            "assetID": "sunglasses_2",
+            "locationType": "face",
+            "expressionType": "f",
+            "weatherType": "sun",
+            "tempRating": -1
+        },
+        {
+            "assetID": "umbrella_1",
+            "locationType": "outer",
+            "expressionType": "a",
+            "weatherType": "rain",
+            "tempRating": -1
+        },
+        {
+            "assetID": "umbrella_2",
+            "locationType": "outer",
+            "expressionType": "a",
+            "weatherType": "rain",
+            "tempRating": -1
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+﻿{
+    "data": [
+        {
+            "assetID": "blazer_1",
+            "layer": 1,
+            "expressionType": "a",
+            "tempRating": 1,
+            "weatherType": "a"
+        },
+        {
+            "assetID": "cardigan_1",
+            "layer": 1,
+            "expressionType": "a",
+            "tempRating": 1,
+            "weatherType": "a"
+        },
+        {
+            "assetID": "cardigan_2",
+            "layer": 1,
+            "expressionType": "a",
+            "tempRating": 1,
+            "weatherType": "a"
+        },
+        {
+            "assetID": "hoodie_1",
+            "layer": 1,
+            "expressionType": "a",
+            "tempRating": 1,
+            "weatherType": "a"
+        },
+        {
+            "assetID": "hoodie_2",
+            "layer": 1,
+            "expressionType": "a",
+            "tempRating": 1,
+            "weatherType": "a"
+        },
+        {
+            "assetID": "rainjacket_1",
+            "layer": 2,
+            "expressionType": "a",
+            "tempRating": 1,
+            "weatherType": "r"
+        },
+        {
+            "assetID": "trenchcoat_1",
+            "layer": 2,
+            "expressionType": "a",
+            "tempRating": 1,
+            "weatherType": "a"
+        },
+        {
+            "assetID": "trenchcoat_2",
+            "layer": 2,
+            "expressionType": "a",
+            "tempRating": 1,
+            "weatherType": "a"
+        },
+        {
+            "assetID": "trenchcoat_3",
+            "layer": 2,
+            "expressionType": "a",
+            "tempRating": 1,
+            "weatherType": "a"
+        },
+        {
+            "assetID": "windbreaker_1",
+            "layer": 1,
+            "expressionType": "a",
+            "tempRating": 1,
+            "weatherType": "a"
+        },
+        {
+            "assetID": "windbreaker_1",
+            "layer": 1,
+            "expressionType": "a",
+            "tempRating": 1,
+            "weatherType": "a"
+        },
+        {
+            "assetID": "winterjacket_1",
+            "layer": 2,
+            "expressionType": "a",
+            "tempRating": 3,
+            "weatherType": "a"
+        },
+        {
+            "assetID": "winterjacket_1",
+            "layer": 2,
+            "expressionType": "a",
+            "tempRating": 3,
+            "weatherType": "a"
+        }
+    ]
+}

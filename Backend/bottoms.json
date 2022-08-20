@@ -1,0 +1,58 @@
+﻿{
+    "bottoms": [
+        {
+            "assetID": "jeans_1",
+            "layer": 1,
+            "expressionType": "a",
+            "tempRating": 2
+        },
+        {
+            "assetID": "leggings_1",
+            "layer": 0,
+            "expressionType": "f",
+            "tempRating": 1
+        },
+        {
+            "assetID": "pants_1",
+            "layer": 1,
+            "expressionType": "a",
+            "tempRating": 2
+        },
+        {
+            "assetID": "shorts_1",
+            "layer": 1,
+            "expressionType": "a",
+            "tempRating": 0
+        },
+        {
+            "assetID": "shorts_2",
+            "layer": 1,
+            "expressionType": "a",
+            "tempRating": 0
+        },
+        {
+            "assetID": "shorts_3",
+            "layer": 1,
+            "expressionType": "a",
+            "tempRating": 0
+        },
+        {
+            "assetID": "skirts_1",
+            "layer": 1,
+            "expressionType": "f",
+            "tempRating": 0
+        },
+        {
+            "assetID": "skirts_2",
+            "layer": 1,
+            "expressionType": "f",
+            "tempRating": 0
+        },
+        {
+            "assetID": "skirts_3",
+            "layer": 1,
+            "expressionType": "f",
+            "tempRating": 0
+        }
+    ]
+}
