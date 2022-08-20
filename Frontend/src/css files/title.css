@@ -1,0 +1,149 @@
+/* cloud4 */
+
+#cloud4{
+    position: absolute;
+    width: 582px;
+    height: 315px;
+    left: 1094px;
+    top: 376px;
+
+    background: url(image.png);
+}
+
+
+/* cloud3 */
+
+#cloud3{
+    position: absolute;
+    width: 582px;
+    height: 315px;
+    left: -106px;
+    top: 763px;
+
+    background: url(image.png);
+}
+
+
+/* cloud2 */
+
+#cloud2{
+    position: absolute;
+    width: 582px;
+    height: 315px;
+    left: 858px;
+    top: 958px;
+    
+    background: url(image.png);
+}
+
+
+/* cloud1 */
+
+#cloud1{
+    position: absolute;
+    width: 416px;
+    height: 225px;
+    left: 500px;
+    top: 137px;
+
+    background: url(image.png);
+}
+
+/* WEATHER APP NAME */
+
+.appName{
+    position: absolute;
+    width: 931px;
+    height: 373px;
+    left: 157px;
+    top: 338px;
+
+    font-family: 'Coco';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 240px;
+    letter-spacing: 0.055em;
+
+    color: #FFFFFF;
+}
+
+
+/* welcome to */
+
+.welcome{
+    position: absolute;
+    width: 849px;
+    height: 75px;
+    left: 159px;
+    top: 203px;
+
+    font-family: 'Coco';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+
+    color: #FFFFFF;
+}
+
+
+/* about */
+
+.about{
+    position: absolute;
+    width: 279px;
+    height: 59px;
+    left: 973px;
+    top: 56px;
+
+    font-family: 'Coco';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+/* contact */
+
+.contact{
+    position: absolute;
+    width: 279px;
+    height: 59px;
+    left: 1154px;
+    top: 56px;
+
+    font-family: 'Coco';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.button{
+    text-align: center;
+    display: inline-block;
+    font-family: 'Coco';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.aboutbutton{
+    margin-left: 1300px;
+}
+
+.contactbutton{
+    margin-left: 2000px;
+}

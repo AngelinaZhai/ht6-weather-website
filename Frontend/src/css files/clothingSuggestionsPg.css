@@ -1,0 +1,99 @@
+/* navbar */
+
+
+position: absolute;
+width: 63px;
+height: 31px;
+left: 1327px;
+top: 27px;
+
+
+
+/* clouds */
+
+
+position: absolute;
+width: 1048px;
+height: 880px;
+left: 596px;
+top: 18px;
+
+
+
+/* 30°C */
+
+
+position: absolute;
+width: 400px;
+height: 299px;
+left: 286px;
+top: 358px;
+
+font-family: 'Coco';
+font-style: normal;
+font-weight: 700;
+font-size: 180px;
+line-height: 22px;
+/* or 12% */
+
+
+color: #FFFFFF;
+
+
+
+/* SUNNY WITH A CHANCE OF RAIN */
+
+
+position: absolute;
+width: 324px;
+height: 684px;
+left: 231px;
+top: 466px;
+
+font-family: 'Coco';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 96px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 65 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 524px;
+height: 598px;
+left: 746px;
+top: 210px;
+
+border: 2px solid rgba(255, 255, 255, 0.8);
+border-radius: 10px;
+
+
+/* random button */
+
+
+position: absolute;
+width: 232px;
+height: 40px;
+left: 1109px;
+top: 824px;
+
+
+
+/* mannequin (2) 1 */
+
+
+position: absolute;
+width: 371px;
+height: 371px;
+left: 822px;
+top: 326px;
+
+background: url(mannequin (2).png);

@@ -1,0 +1,105 @@
+/* cloud1 */
+
+
+position: absolute;
+width: 582px;
+height: 315px;
+left: -106px;
+top: -261px;
+
+background: url(image.png);
+
+
+/* type in your location to begin */
+
+
+position: absolute;
+width: 571px;
+height: 75px;
+left: 739px;
+top: 249px;
+
+font-family: 'Coco';
+font-style: normal;
+font-weight: 700;
+font-size: 120px;
+line-height: 144px;
+text-align: right;
+
+color: #FFFFFF;
+
+
+
+/* navbar */
+
+
+position: absolute;
+width: 63px;
+height: 31px;
+left: 1340px;
+top: 27px;
+
+
+
+/* cloud 2 */
+
+
+position: absolute;
+width: 582px;
+height: 315px;
+left: 858px;
+top: -66px;
+
+background: url(image.png);
+
+
+/* typingline */
+
+
+position: absolute;
+width: 104px;
+height: 0px;
+left: 1296px;
+top: 698px;
+
+border: 3px solid #FFFFFF;
+transform: rotate(90deg);
+
+
+/* cloud3 */
+
+
+position: absolute;
+width: 488px;
+height: 261px;
+left: 873px;
+top: 833px;
+
+background: url(image.png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* cloud4 */
+
+
+position: absolute;
+width: 380px;
+height: 203px;
+left: 458px;
+top: 335px;
+
+background: url(image.png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* cloud5 */
+
+
+position: absolute;
+width: 488px;
+height: 261px;
+left: 566px;
+top: 1184px;
+
+background: url(image.png);
+transform: matrix(1, 0, 0, -1, 0, 0);
