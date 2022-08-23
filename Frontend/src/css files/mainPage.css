@@ -3,30 +3,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Italiana', serif;
+    font-family: 'Coco';
     scroll-behavior: smooth;
 }
 
 body
 {
-    background: #D3C7C1;
+    background: #127EBE;
 }
 
-header
+nav
 {
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     padding: 30px 70px;
     display: flex;
     justify-content: space-between;
-    align-items: right;
-    margin-left: 1100px;
+    align-items: center;
 }
 
-header .logo
+nav .logo
 {
-    color: #fff;
+    color: #FFFFFF;
     font-weight: 600;
     text-decoration: none;
     font-size: 1.75em;
@@ -34,54 +34,127 @@ header .logo
     letter-spacing: 2px;
 }
 
-header ul
+nav ul
 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-header ul li
+nav ul li
 {
     list-style: none;
     margin-left: 20px;
 }
 
-header ul li a
+nav ul li a
 {
     font-weight: 500;
-    font-size: 1.25em;
+    font-size: 2em;
     text-decoration: none;
     padding: 6px 12px;
-    color: #fff;
+    color: #FFFFFF;
     border-radius: 20px;
 }
 
-header ul li a:hover
+nav ul li a:hover
 {
-    background: #fff;
-    color: #D3C7C1;
+    background: #FFFFFF;
+    color: #127EBE;
 }
 
-body
-{
+
+/* Header Title */
+.mainContent {
+  padding: 40px;
+  text-align: left;
+  margin:160px;
+  font-size: 6em;
+  color: #FFFFFF;
 }
 
-body a
-{
-    font-weight: 500;
-    font-size: 10em;
-    text-decoration: none;
-    color: #fff;
-   
+/* cloud1 */
+#cloud1 {
+    position: absolute;
+    width: 416px;
+    height: 225px;
+    left: 550px;
+    top: 85px;
+
+    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
-h1
-{
-    margin-left:100px;
-    text-align: left;
+/* cloud2  must FIX*/
+#cloud2 {
+    position: absolute;
+    width: 582px;
+    height: 315px;
+    left: 879px;
+    top: 361px;
 }
 
-p{
-    margin-left:100px;
+/* cloud3 */
+#cloud3 {
+    position: absolute;
+    width: 582px;
+    height: 315px;
+    left: -106px;
+    top: 663px;
+}
+
+/* cloud 4 */
+#cloud4 {
+    position: absolute;
+    width: 582px;
+    height: 315px;
+    left: 729px;
+    top: 921px;
+}
+
+/* cloud5 */
+#cloud5 {
+    position: absolute;
+    width: 380px;
+    height: 203px;
+    left: 44px;
+    top: 1357px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+/* cloud6 */
+#cloud6 {
+    position: absolute;
+    width: 488px;
+    height: 261px;
+    left: 907px;
+    top: 1860px;
+
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+/* cloud7 */
+#cloud7 {
+    position: absolute;
+    width: 602px;
+    height: 286px;
+    left: 1100px;
+    top: 2247px;
+
+    transform: rotate(-180deg);
+}
+
+.location {
+    /* type in your location to begin */
+    position: absolute;
+    width: 571px;
+    height: 75px;
+    left: 697px;
+    top: 1254px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4em;
+    text-align: right;
+
+    color: #FFFFFF;
 }
