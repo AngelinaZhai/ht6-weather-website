@@ -158,3 +158,20 @@ nav ul li a:hover
 
     color: #FFFFFF;
 }
+
+.border{
+    position:absolute;
+    left:80px;
+    width:1000px;
+
+    font-style: normal;
+    font-weight: 250;
+    font-size: 1.25em;
+    color: #FFFFFF;
+    border:solid rgba(255, 255, 255, 0.8) 1px;
+    border-radius: 0.5rem;
+}
+
+.spacing{
+    padding: 20px;
+}

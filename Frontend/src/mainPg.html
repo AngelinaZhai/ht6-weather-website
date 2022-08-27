@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Weather App</title>
     <link rel="stylesheet" type="text/css" href="css files/mainPage.css">
+    <link rel="stylesheet" type="text/css" href="css files/table.css">
+    <script src="js files/table.js" defer></script>
   </head>
   <body>
     <nav>
@@ -31,10 +33,86 @@
         <img id="cloud6" src="css files/image.png" alt="cloud">
         <img id="cloud7" src="css files/image.png" alt="cloud">
     </div>
+
     <div class="location">
       <h1>type in</h1>
       <h1>your location</h1>
       <h1>to begin</h1>
+    </div>
+
+    <div class = "border">
+      <div class = "spacing">
+        <p style="opacity:0.9">SELECT ITEMS FOUND IN YOUR CLOSET</p>
+        <div class = "tab">
+          <button class="tablinks" onclick="openCategory(event,'Tops')" id = "default">TOPS</button>
+          <button class="tablinks" onclick="openCategory(event,'Bottoms')" ><b>BOTTOMS</b></button>
+          <button class="tablinks" onclick="openCategory(event,'Jackets')" ><b>JACKETS</b></button>
+          <button class="tablinks" onclick="openCategory(event,'Overalls')"><b>OVERALLS</b></button>
+          <button class="tablinks" onclick="openCategory(event,'Shoes')" ><b>SHOES</b></button>
+          <button class="tablinks" onclick="openCategory(event,'Accessories')"><b>ACCESSORIES</b></button>
+        </div>
+
+        <div id = "Tops" class = "tabcontent">
+          <form>
+            <input type = "checkbox" id = "dress shirt" onclick="updateList('Tops','dress shirt')">Dress Shirt<br>
+            <input type = "checkbox" id = "plaid" onclick="updateList('Tops','plaid')">Plaid<br>
+            <input type = "checkbox" id = "sweater" onclick="updateList('Tops','sweater')">Sweaters<br>
+            <input type = "checkbox" id = "tank top" onclick="updateList('Tops','tank top')">Tank Tops<br>
+            <input type = "checkbox" id = "tshirt" onclick="updateList('Tops','tshirt')">Tshirts<br>
+            <input type = "checkbox" id = "turtleneck" onclick="updateList('Tops','turtleneck')">Turtlenecks<br>
+          </form>
+        </div>
+
+        <div id = "Bottoms" class = "tabcontent">
+          <form>
+            <input type = "checkbox" id = "jeans" onclick="updateList('Bottoms','jeans')">Jeans<br>
+            <input type = "checkbox" id = "leggings" onclick="updateList('Bottoms','leggings')">Leggings<br>
+            <input type = "checkbox" id = "dress pants" onclick="updateList('Bottoms','dress pants')">Dress Pants<br>
+            <input type = "checkbox" id = "shorts" onclick="updateList('Bottoms','shorts')">Shorts<br>
+            <input type = "checkbox" id = "skirts" onclick="updateList('Bottoms','skirts')">Skirts<br>
+          </form>
+        </div>
+
+        <div id = "Overalls" class = "tabcontent">
+          <form>
+            <input type = "checkbox" id = "short dress" onclick="updateList('Overalls','short dress')">Short Dress<br>
+            <input type = "checkbox" id = "short overall" onclick="updateList('Overalls','short overall')">Short Overall<br>
+            <input type = "checkbox" id = "medium dress" onclick="updateList('Overalls','medium dress')">Medium Dress<br>
+            <input type = "checkbox" id = "long dress" onclick="updateList('Overalls','long dress')">Long Dress<br>
+            <input type = "checkbox" id = "jumpsuit" onclick="updateList('Overalls','jumpsuit')">Jumpsuit<br>
+          </form>
+        </div>
+        
+        <div id = "Jackets" class = "tabcontent">
+          <form>
+            <input type = "checkbox" id = "blazer" onclick="updateList('Jackets','blazer')">Blazer<br>
+            <input type = "checkbox" id = "cardigan" onclick="updateList('Jackets','cardigan')">Cardigan<br>
+            <input type = "checkbox" id = "hoodie" onclick="updateList('Jackets','hoodie')">Hoodie<br>
+            <input type = "checkbox" id = "rain jacket" onclick="updateList('Jackets','rain jacket')">Rain Jacket<br>
+            <input type = "checkbox" id = "trenchcoat" onclick="updateList('Jackets','trenchcoat')">Trenchcoat<br>
+            <input type = "checkbox" id = "wind breaker" onclick="updateList('Jackets','wind breaker')">Wind Breaker<br>
+            <input type = "checkbox" id = "winter jacket" onclick="updateList('Jackets','winter jacket')">Winter Jacket<br>
+          </form>
+        </div>
+
+        <div id = "Shoes" class = "tabcontent"> 
+          <form>
+            <input type = "checkbox" id = "rain boots" onclick="updateList('Shoes','rain boots')">Rain Boots<br>
+            <input type = "checkbox" id = "sneakers" onclick="updateList('Shoes','sneakers')">Sneakers<br>
+            <input type = "checkbox" id = "snow boots" onclick="updateList('Shoes','snow boots')">Snow Boots<br>
+          </form>
+        </div>
+
+        <div id = "Accessories" class = "tabcontent">
+          <form>
+            <input type = "checkbox" id = "umbrella" onclick="updateList('Accessories','umbrella')">Umbrella<br>
+            <input type = "checkbox" id = "sunglasses" onclick="updateList('Accessories','suglasses')">Sunglasses<br>
+            <input type = "checkbox" id = "cap" onclick="updateList('Accessories','cap')">Cap<br>
+            <input type = "checkbox" id = "beanie" onclick="updateList('Accessories','beanie')">Beanie<br>
+            <input type = "checkbox" id = "bucket hat" onclick="updateList('Accessories','bucket hat')">Bucket Hat<br>
+          </form>
+        </div>
+      </div>
     </div>
   </body>
 </html>
